@@ -1,21 +1,26 @@
 <template>
   <div class="home">
     <h1>Home</h1>
+    <Text>Merahaba Dünya</Text>
+    <Text tag="p" class="a1">Merahaba Dünya</Text>
+    <Text tag="b" size="big">Merahaba Dünya</Text>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+import Text from '@/components/Text.vue'
 
 export default {
-  name: 'HomeViews'
+  name: 'HomeViews',
+  components: {
+    Text
+  }
 }
 </script>
+
 <style scoped>
-h1 {
-  color: red;
-  @media (--t) {
-    color: blue;
-  }
+.a1 {
+  color: rgba(var(--ig-elevated-separator));
 }
 </style>
