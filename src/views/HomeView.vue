@@ -21,6 +21,6 @@ export default {
 
 <style scoped>
 .a1 {
-  color: rgba(var(--ig-elevated-separator));
+  color: rgb(var(--ig-elevated-separator));
 }
 </style>
