@@ -35,6 +35,6 @@ export default {
 }
 
 .xsmall {
-  font-size: 11px;
+  font-size: 01px;
 }
 </style>
