@@ -19,6 +19,12 @@ module.exports = {
       {
         ignores: ['default']
       }
+    ],
+    'vue/no-unused-components': [
+      'error',
+      {
+        ignoreWhenBindingPresent: true
+      }
     ]
   }
 }
